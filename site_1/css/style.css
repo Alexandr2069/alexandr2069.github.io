@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Socialico";
+    src: url("Socialico.eot?") format("eot"), url("Socialico.woff") format("woff"), url("Socialico.ttf") format("truetype"), url("Socialico.svg#Socialico") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    max-width: 1280px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    min-width: 1280px;
+    min-height: 323px;
+    /*    margin: 0 auto;*/
+    background-image: url(../img/header-bg.png);
+}
+
+.product {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.product h1 {
+    color: #fff;
+    font: 60px Arial;
+}
+
+.list1 {
+    margin-top: 30px;
+    list-style-image: url(../img/check_icon.png);
+    margin-left: 38px;
+    font: 20px Arial;
+    color: #fff;
+    line-height: 36px;
+    min-width: 458px;
+    min-height: 129px;
+}
+
+.productpicture {
+    min-width: 469px;
+    min-height: 214px;
+    float: right;
+    margin: 50px 50px 0px 0px;
+    outline: 1px solid #445162;
+}
+
+main {
+    max-width: 1280px;
+    min-height: 1673px;
+    /*    margin: 0 auto;*/
+    background-color: #fff;
+}
+
+.aboutproduct {
+    width: 1280px;
+    height: 344px;
+    float: left;
+}
+
+
+}
+.about {
+    float: left;
+}
+.about h2 {
+    color: #445161;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 49px 0px 0px 50px;
+}
+.text_1 {
+    margin: 30px 0px 0px 50px;
+    max-width: 649px;
+    max-height: 63px;
+    color: #333333;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.text_2 {
+    margin: 20px 0px 0px 50px;
+    max-width: 653px;
+    max-height: 60px;
+    color: #333333;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.video_1 {
+    float: right;
+    /* width: 430px;
+    height: 245px; */
+    margin: -210px 50px 0px 0px;
+}
+.pluses {
+    width: 1280px;
+    height: 416px;
+    clear: both;
+    background-color: #f5f5f5;
+}
+.pluses h2 {
+    padding-top: 46px;
+    text-align: center;
+    color: #445161;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.left_pluses_item {
+    margin-top: 27px;
+    margin-left: 50px;
+    float: left;
+}
+.right_pluses_item {
+    margin-top: 27px;
+    margin-left: 23px;
+    float: left;
+}
+.item_item_1 {
+    width: 528px;
+    height: 63px;
+}
+.item_item_2 {
+    margin-top: 35px;
+    width: 528px;
+    height: 63px;
+}
+.item_item_3 {
+    margin-top: 36px;
+    width: 528px;
+    height: 63px;
+}
+.plus_icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-color: #445161;
+    padding: 6px;
+}
+.text_3 {
+    overflow: hidden;
+    padding-left: 7px;
+    color: #333333;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+.scrinshots {
+    width: 1280px;
+    height: 487px;
+    clear: both;
+    background-color: #fff;
+}
+.scrinshots h2 {
+    text-align: center;
+    padding-top: 45px;
+    color: #445161;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.left_item_description {
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.right_item_description {
+    float: left;
+    margin-top: 25px;
+    margin-left: 16px;
+}
+.image_1 {
+    float: left;
+}
+.description_1 {
+    float: left;
+    padding-left: 15px;
+}
+.image_2 {
+    clear: both;
+    float: left;
+    margin-top: 30px;
+}
+.description_2 {
+    float: left;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+.description_1 h3,
+.description_2 h3 {
+    color: #445161;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.description_1 p,
+.description_2 p {
+    overflow: hidden;
+    width: 359px;
+    height: 108px;
+    color: #333333;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.reviews {
+    width: 1280px;
+    height: 424px;
+    background-color: #f5f5f5;
+}
+.reviews h2 {
+    text-align: center;
+    padding-top: 45px;
+    color: #445161;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.left_reviews_item {
+    width: 574px;
+    height: 121px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+.right_reviews_item {
+    width: 574px;
+    height: 121px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 32px;
+}
+.reviews_item_1 {
+    width: 574px;
+    height: 121px;
+}
+.reviews_item_2 {
+    width: 574px;
+    height: 121px;
+    margin-top: 24px;
+}
+.circle {
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border: 1px solid #445161;
+    border-radius: 50%;
+    float: left;
+}
+.text_review {
+    width: 483px;
+    height: 121px;
+    float: left;
+    margin-left: 12px;
+    background-image: url(../img/bg_review.png);
+}
+.text_4 {
+    overflow: hidden;
+    padding: 16px 20px 0px 27px;
+    color: #333333;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.signature {
+    padding: 0px 387px 16px 27px;
+    color: #989898;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.buyitnow {
+    min-width: 1280px;
+    min-height: 656px;
+    text-align: center;
+}
+.buy {
+    padding-top: 50px;
+    color: #445161;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.standart {
+    width: 300px;
+    height: 306px;
+    background-color: #445162;
+    border-radius: 2%;
+    float: left;
+    margin-left: 145px;
+    position: relative;
+    top: 222px;
+}
+.premium {
+    width: 300px;
+    height: 404px;
+    background-color: #445162;
+    border-radius: 2%;
+    float: left;
+    margin-left: 45px;
+    position: relative;
+    top: 124px;
+}
+.lux {
+    width: 300px;
+    height: 499px;
+    background-color: #445162;
+    border-radius: 2%;
+    float: left;
+    margin-left: 45px;
+    position: relative;
+    top: 29px;
+}
+.buyitnow h3 {
+    text-align: center;
+    margin-top: 13px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    /* line-height: 30px; */
+}
+.price {
+    width: 296px;
+    height: 71px;
+    margin-top: 14px;
+    background-color: #ffffff;
+    margin-left: 2px;
+}
+.price h2 {
+    padding-top: 19px;
+    color: #445162;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.standart ol {
+    margin-top: 12px;
+    min-width: 242px;
+    max-height: 86px;
+}
+.premium ol {
+    margin-top: 14px;
+    max-height: 182px;
+}
+.lux ol {
+    margin-top: 14px;
+    max-height: 278px;
+}
+ol li {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 40px;
+}
+button {
+    width: 260px;
+    height: 40px;
+    margin-top: 14px;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px 0px rgba(36, 134, 199, 0.99);
+    border: 0px solid #445162;
+    border-radius: 4px;
+    color: #445161;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+.clearfix {
+    clear: both;
+}
+.clr {
+    height: 535px;
+}
+footer {
+    clear: both;
+    width: 1280px;
+    height: 535px;
+    background-color: #445162;
+    margin: -535px auto 0;
+}
+footer h2 {
+    text-align: center;
+    padding-top: 53px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.contacts {
+    float: left;
+    margin-left: 46px;
+    margin-top: 24px;
+}
+.contacts h4 {
+    float: left;
+    margin-top: 0px;
+    margin-left: 4px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.contacts figure {
+    float: left;
+}
+.icq,
+.email,
+.phone {
+    clear: both;
+    padding-top: 18px;
+}
+.socialico {
+    clear: both;
+    padding-top: 36px;
+}
+.socialico h5 {
+    width: 240px;
+    height: 42px;
+    color: #ffffff;
+    font-family: Socialico;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "l, figx" */
+    
+    letter-spacing: 1.5px;
+}
+form {
+    margin-left: 249px;
+    margin-top: 24px;
+    float: left;
+}
+input[type="text"],
+input[type="email"],
+textarea[name="text"] {
+    color: red;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+input::placeholder,
+textarea::placeholder {
+    padding-top: 14px;
+    padding-left: 10px;
+    color: #445162;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    padding-top: 3px;
+    padding-left: 10px;
+    color: #445162;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    padding-top: 3px;
+    padding-left: 10px;
+    color: #445162;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    padding-top: 3px;
+    padding-left: 10px;
+    color: #445162;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    padding-top: 3px;
+    padding-left: 10px;
+    color: #445162;
+}
+input[type="text"],
+input[type="email"] {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px solid #445162;
+}
+input[type="email"] {
+    margin-top: 22px;
+}
+textarea[name="text"] {
+    margin-top: 22px;
+    width: 500px;
+    height: 170px;
+    border-radius: 5px;
+    border: 0px solid #445162;
+}
+input[type="submit"] {
+    width: 140px;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: 17px;
+    background-color: #fff;
+    border: 0px solid #445162;
+    border-radius: 4px;
+    color: #445162;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.copyright {
+    margin-top: 430px;
+    height: 26px;
+    background-color: #fff;
+    text-align: center;
+}
+.copyright h3 {
+    color: #445162;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
