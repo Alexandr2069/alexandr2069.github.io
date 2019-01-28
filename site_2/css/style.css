@@ -13,7 +13,7 @@ body {
 video {
     min-width: 1280px;
     min-height: 100%;
-    position: absolute;
+    /*    position: absolute;*/
 }
 
 nav {
